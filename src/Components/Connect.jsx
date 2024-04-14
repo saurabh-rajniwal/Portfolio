@@ -19,7 +19,7 @@ export default function Connect({ footerHeading }) {
 
           <div className="footerIconExtraContent">
             <a
-              href="https://www.linkedin.com/in/saurabh-rajniwal-324b01165"
+              href="https://www.linkedin.com/in/saurabh-rajniwal"
               target="_blank"
               rel="noopener noreferrer"
             >

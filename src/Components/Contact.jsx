@@ -9,7 +9,7 @@ export default function Contact({ buttons }) {
             <a
               className="buttons_style link_styles"
               key={index}
-              href="https://drive.google.com/file/d/1u9Xam0YLsiqmLaDA-M06LF8kFzg55JFV/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1wqgpAxuEYkviH06-WhppLtJQFDt5ClRF/view?usp=sharing"
               target="blank"
             >
               {item}
