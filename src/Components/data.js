@@ -24,3 +24,23 @@ export const experiences = [
     ],
   },
 ];
+
+export const projects = [
+  {
+    image: "images/weatherApp.png",
+    title: "Weather Application",
+
+    gitLink: "https://github.com/saurabh-rajniwal/Weather-Application",
+    projectLink: "https://weather-application-amber-two.vercel.app",
+    description:
+      "This is a project created using React. Search for your favorite location and get the weather report of that place. Right side bar also contains a link. Link will redirect you to a website where you can read more places to visit at the search location.",
+  },
+  {
+    image: "images/LiveChat.png",
+    title: "Live Chat Application",
+    gitLink: "https://github.com/saurabh-rajniwal/Chat-Application",
+    projectLink: "https://chat-application-seven-roan.vercel.app",
+    description:
+      "Live Chat application created using Angular and Firebase. Application has register and login page. It is using firebase authenticator and firebase database to store chats. User can either send message to himself or chat with other. It also has capability to edit and delete chats",
+  },
+];
