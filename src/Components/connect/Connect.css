@@ -1,0 +1,39 @@
+.connectContainer {
+  margin-top: 100px;
+}
+
+.connect-me {
+  width: 80%;
+  margin: 0px auto;
+}
+
+.connect-heading {
+  padding-top: 60px;
+  color: white;
+  padding-bottom: 10px;
+  font-size: 26px;
+}
+
+.containerText {
+  margin-bottom: 20px;
+}
+
+.footerIcon {
+  color: white;
+  margin-right: 10px;
+}
+
+.footerIconText {
+  text-decoration: none;
+  color: grey;
+}
+
+.footerIconText:hover {
+  text-decoration: underline wavy white;
+  color: white;
+}
+
+.footerIconExtraContent {
+  margin-top: 30px;
+  padding-bottom: 100px;
+}

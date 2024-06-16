@@ -1,4 +1,4 @@
-import React from "react";
+import "../experience/Experience.css";
 
 export default function Experience({ experiences }) {
   return (

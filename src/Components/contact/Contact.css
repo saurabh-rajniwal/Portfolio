@@ -1,0 +1,70 @@
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.buttons_style {
+  height: 50px;
+  width: 125px;
+  padding: 0px 10px;
+  border: 2px solid white;
+  border-radius: 30px;
+  /* background-color: black; */
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.link_styles {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttons_style:hover {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
+
+.experience-logos {
+  text-align: center;
+  padding-top: 150px;
+}
+
+.experience-logos-heading {
+  /* color: white; */
+  font-size: 38px;
+  font-weight: 800;
+  color: linear-gradient(180deg, #5badff 0%, #1373d1 100%);
+  background: linear-gradient(to bottom, #5badff, #1373d1);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.skill-logo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 65%;
+  margin: 0px auto;
+  padding-top: 70px;
+}
+
+.skill-logo i {
+  margin: 40px;
+  flex: 1;
+  transition: all 0.3s ease;
+}
+
+.skill-logo i:hover {
+  transform: scale(1.7);
+}
+
+@media screen and (max-width: 600px) {
+  .skill-logo i {
+    width: 100%;
+  }
+}

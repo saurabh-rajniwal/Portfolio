@@ -1,4 +1,5 @@
 import React from "react";
+import "../work/Projects.css";
 
 function Projects({ projects }) {
   return (
@@ -21,6 +22,7 @@ function Projects({ projects }) {
                   href={item.gitLink}
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="open github in new tab"
                 >
                   <i className="actionButton fa-brands fa-github fa-xl"></i>
                 </a>
@@ -28,6 +30,7 @@ function Projects({ projects }) {
                   href={item.projectLink}
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="open project live link"
                 >
                   <i className="actionButton fa-solid fa-play fa-xl"></i>
                 </a>

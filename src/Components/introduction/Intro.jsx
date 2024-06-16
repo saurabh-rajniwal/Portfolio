@@ -1,4 +1,5 @@
 import React from "react";
+import "../introduction/Intro.css";
 
 export default function Intro({ images }) {
   return (

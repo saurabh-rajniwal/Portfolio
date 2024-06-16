@@ -1,4 +1,5 @@
 import React from "react";
+import "../connect/Connect.css";
 
 export default function Connect({ footerHeading }) {
   return (
@@ -13,7 +14,11 @@ export default function Connect({ footerHeading }) {
           </p>
 
           <i className="fas fa-envelope fa-lg footerIcon"></i>
-          <a className="footerIconText" href="mailto:saurabhrajniwal@gmail.com">
+          <a
+            className="footerIconText"
+            href="mailto:saurabhrajniwal@gmail.com"
+            aria-label="Open mail in new tab"
+          >
             saurabhrajniwal@gmail.com
           </a>
 
@@ -22,11 +27,16 @@ export default function Connect({ footerHeading }) {
               href="https://www.linkedin.com/in/saurabh-rajniwal"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Open LinkedIn in in new tab"
             >
               <i className="fab fa-linkedin fa-lg footerIcon"></i>
             </a>
             <i className="fas fa-phone-square fa-lg footerIcon"></i>
-            <a className="footerIconText" href="tel:8279936155">
+            <a
+              className="footerIconText"
+              href="tel:8279936155"
+              aria-label="Contact Number"
+            >
               8279936155
             </a>
           </div>

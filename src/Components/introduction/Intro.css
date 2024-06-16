@@ -1,0 +1,78 @@
+.center-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 300px;
+  max-width: 1000px;
+  margin: 0 auto;
+  height: 100vh;
+}
+.username {
+  font-size: 26px;
+  background: linear-gradient(to left, #f32170, #ff6b08, #cf23cf, #eedd44);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.introContainer {
+  width: 100%;
+  text-align: center;
+}
+
+.about-details {
+  text-align: center;
+}
+
+.about-photo {
+  width: 200px;
+  height: 250px;
+  border-radius: 20%;
+  margin: 150px 0px 0px 0px;
+}
+
+.spanText {
+  font-weight: bold;
+  background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #eedd44);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.intro-para,
+.intro-para-2 {
+  font-size: 42px;
+  color: white;
+}
+
+.intro-para-3 {
+  font-size: 16px;
+  color: grey;
+  margin: 50px 100px;
+}
+
+@media (max-width: 768px) {
+  .center-container {
+    flex-direction: column;
+  }
+
+  .intro-para,
+  .intro-para-2 {
+    font-size: 20px;
+  }
+  .intro-para-3 {
+    margin: 50px 50px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .center-container {
+    flex-direction: column;
+  }
+
+  .intro-para,
+  .intro-para-2 {
+    font-size: 26px;
+  }
+  .intro-para-3 {
+    margin: 50px 75px;
+  }
+}

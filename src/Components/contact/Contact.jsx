@@ -1,4 +1,4 @@
-import React from "react";
+import "../contact/Contact.css";
 
 export default function Contact({ buttons }) {
   return (
@@ -11,6 +11,7 @@ export default function Contact({ buttons }) {
               key={index}
               href="https://drive.google.com/file/d/1wqgpAxuEYkviH06-WhppLtJQFDt5ClRF/view?usp=sharing"
               target="blank"
+              aria-label="Opens resume in New Tab"
             >
               {item}
             </a>
@@ -19,6 +20,7 @@ export default function Contact({ buttons }) {
               className="buttons_style link_styles"
               key={index}
               href="#connect"
+              aria-label="Redirect to Contact page"
             >
               {item}
             </a>
