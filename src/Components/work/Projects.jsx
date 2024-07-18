@@ -16,7 +16,6 @@ function Projects({ projects }) {
             <div className="projectDesc">
               <h2 className="projectTitle">{item.title}</h2>
               <p>{item.description}</p>
-
               <div className="buttonContainer">
                 <a
                   href={item.gitLink}

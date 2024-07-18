@@ -21,7 +21,6 @@ export default function Connect({ footerHeading }) {
           >
             saurabhrajniwal@gmail.com
           </a>
-
           <div className="footerIconExtraContent">
             <a
               href="https://www.linkedin.com/in/saurabh-rajniwal"
